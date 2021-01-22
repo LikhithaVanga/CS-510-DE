@@ -1,0 +1,10 @@
+bootstrap.servers=pkc-lgk0v.us-west1.gcp.confluent.cloud:9092
+ssl.endpoint.identification.algorithm=https
+security.protocol=SASL_SSL
+sasl.mechanisms=PLAIN
+sasl.username=WWHV5RALJU4EVXZ2 
+sasl.password=i7nRSKbPxLc+9r5aJhL54WUmg85OH5oxhdU1PunUjExCByJ9HEasMqDA/pNruSY1
+# Confluent Cloud Schema Registry
+schema.registry.url=https://psrc-xqq6z.us-central1.gcp.confluent.cloud
+basic.auth.credentials.source=USER_INFO
+schema.registry.basic.auth.user.info=VBRTONSXDZOXK7SQ:q9n7b5XndKGWyP8AtS+fte2F0CIPxnTnPzUbHNPw/imB9wSA44lgDv+MRLbcZj0l;
