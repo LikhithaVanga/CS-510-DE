@@ -57,7 +57,7 @@ if __name__ == '__main__':
             # p.poll() serves delivery reports (on_delivery)
             # from previous produce() calls.
             producer.poll(0)
-            time.sleep(0.25)
+            time.sleep(0.25)#added sleep time
 
     producer.flush()
 
