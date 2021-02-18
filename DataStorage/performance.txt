@@ -1,0 +1,13 @@
+DataEng: Data Storage Activity
+This week you’ll gain experience with various ways to load data into a Postgres database.
+
+Make a copy of this document and use it to record your results. Store a PDF copy of the document in your git repository along with any needed code before submitting for this week. 
+
+The data set for this week is US Census data from 2015 and 2017. The United States conducts a full census of every household every 10 years (we just finished one last year), but much of the detailed census data comes during the intervening years when the Census Bureau conducts its detailed American Community Survey (ACS) of a randomly selected sample of approximately 3.5 million households each year. The resulting data gives a more detailed view of many factors of American life and the composition of households.
+
+ACS Census Tract Data for 2015
+ACS Census Tract Data for 2017 (ignore  the 2017 data)
+
+Your job is to load the 2015 data set (approximately 74000 rows each) into your database. You’ll configure a postgres DBMS on a new GCP virtual machine, and then load the data five different ways, comparing the cost of each method.
+
+We hope that you make it all the way through to the end, but regardless, use your time wisely to gain python programming experience and learn as much as you can about bulk loading of data. Note that the goal here is not to achieve the fastest load times. Instead, your goal should be to gain knowledge about how a data storage server (such as PostgreSQL) works and why various data loading approaches produce differing performance results.
